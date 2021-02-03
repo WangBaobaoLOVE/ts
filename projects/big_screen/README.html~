@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<h1 id="big_screen">big_screen</h1>
+<p>数据大屏可视化</p>
+<h1 id="功能">功能</h1>
+<p>便利性工具, 结构简单, 直接传数据就可以实现数据大屏</p>
+<h1 id="安装">安装</h1>
+<pre><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple flask</code></pre>
+<h1 id="运行">运行</h1>
+<pre><code>python app.py;</code></pre>
+<ul>
+<li><p>大数据可视化展板通用模板 http://127.0.0.1:5000/</p></li>
+<li><p>4600 万企业数据大屏可视化 http://127.0.0.1:5000/corp</p></li>
+<li><p>厦门 10 万招聘数据大屏可视化 http://127.0.0.1:5000/job</p></li>
+</ul>
+<h1 id="示例">示例</h1>
+<div class="figure">
+<img src="https://github.com/TurboWay/imgstore/blob/master/bigscreen/corp.jpg" alt="image" />
+<p class="caption">image</p>
+</div>
+<h1 id="参考">参考</h1>
+<ol style="list-style-type: decimal">
+<li>https://gitee.com/lvyeyou/DaShuJuZhiDaPingZhanShi</li>
+<li>本项目fork仓库：<a href="https://github.com/TurboWay/big_screen">TurboWay/big_screen</a></li>
+<li>样例：<a href="https://bigscreen.turboway.top">大数据可视化展板通用模板</a></li>
+</ol>
+
+</body>
+</html>
