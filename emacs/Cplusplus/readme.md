@@ -1,0 +1,25 @@
+# emacs运行编译C++程序 #
+
+## 简单使用 ##
+
+1. 例子：hello_emacs.cpp
+
+   ```C++
+   #include <iostream>
+
+   using namespace std;
+
+   int main() {
+       cout << "Hello, Emacs";
+       return 0;
+   }
+   ```
+   
+2. 找到该文件：C-x C-f;
+3. 编译文件：`M-x compile`,并回车;
+4. 显示：“Compile command: make-k”,删除“make-k”,输入“g++ hello_emacs.cpp -o hello_emacs”;
+5. 输入：`M-x eshell`;
+6. 在新打开的窗口中输入：`./hello_emacs`；
+
+## IDE配置 ##
+
